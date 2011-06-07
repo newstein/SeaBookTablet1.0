@@ -91,6 +91,7 @@ public class ebookmain extends Activity
             R.drawable.author,
             R.drawable.title,
             R.drawable.readermain,
+            R.drawable.fairy,           
             R.drawable.recent,
             R.drawable.booktag,
             R.drawable.filetree,
@@ -101,6 +102,7 @@ public class ebookmain extends Activity
             R.drawable.author_m,
             R.drawable.title_m,
             R.drawable.readermain_m,
+            R.drawable.fairy_m,
             R.drawable.recent_m,
             R.drawable.booktag_m,
             R.drawable.filetree_m,
@@ -161,15 +163,18 @@ public class ebookmain extends Activity
                         textview.setText("Sea Reader Main");  
                         break; 
                     case 5:
-                        textview.setText("Recent List");  
+                        textview.setText("Fairy Tale");  
                         break; 
                     case 6:
-                        textview.setText("By Tag List");  
+                        textview.setText("Recent List");  
                         break;   
                     case 7:
-                        textview.setText("File Tree");  
+                        textview.setText("By Tag List");  
                         break;  
                     case 8:
+                        textview.setText("File Tree");  
+                        break;  
+                    case 9:
                         textview.setText("Network Library");  
                         break;                          
                     default:                
